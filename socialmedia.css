@@ -1,0 +1,55 @@
+@@ -1,100 +0,0 @@
+﻿@import url(http://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before {
+   font-family: "entypo", sans-serif;
+}
+
+.container .gallery a img {
+   float: left;
+   width: 20%;
+   border: 2px solid #fff;
+   -webkit-transition: -webkit-transform .15s ease !important; 
+   -moz-transition: -moz-transform .15s ease !important;
+   -o-transition: -o-transform .15s ease !important;
+   -ms-transition: -ms-transform .15s ease !important;
+   transition: transform .15s ease !important;
+   position: relative;
+   object-fit: cover;
+   height: 10vw;
+ }
+
+ @media only screen and (max-width: 380px) {
+    .container .gallery a img {
+       min-width: 120px;
+       min-height: 120px;
+    }
+ }
+
+ @media only screen and (min-width: 381px) and (max-width: 550px) {
+   .container .gallery a img {
+      min-width: 130px;
+      min-height: 130px;
+   }
+ }
+
+ @media only screen and (min-width: 551px) and (max-width: 800px) {
+   .container .gallery a img {
+      min-width: 140px;
+      min-height: 140px;
+   }
+ }
+
+ .container .gallery a:hover img {
+   -webkit-transform: scale(1.05) !important;
+   -moz-transform: scale(1.05) !important;
+   -o-transform: scale(1.05) !important;
+   -ms-transform: scale(1.05) !important;
+   transform: scale(1.05) !important;
+   z-index: 5;
+ }
+ 
+ .clear {
+   clear: both;
+   float: none;
+   width: 100%;
+ }
