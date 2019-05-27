@@ -156,10 +156,16 @@ footer {
 }
 
 #sticky-social a {
-    background-color: blue;
+    background-color: #3a559f;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     color: white;
     font-size: 3vw;
     position: fixed;
     right: 0;
     top: 30%;
+}
+
+#sticky-social a:hover {
+    background-color: #4b66af;
 }
