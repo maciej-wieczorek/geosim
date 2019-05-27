@@ -20,13 +20,13 @@ body {
 }
 
 .active {
-    background-color: #f06969 !important;
+    background-color: #ff9f42 !important;
 }
 
 .navbar {
     margin-top: 50px;
     margin-bottom: 30px;
-    background-color: red;
+    background-color: #ef7f20;
     font-size: 20px !important;
     padding: 0;
     display: flex;
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar li:hover {
-    background-color: #f06969;
+    background-color: #ff9f42;
     -webkit-transition: background-color 175ms linear;
     -ms-transition: background-color 175ms linear;
     transition: background-color 175ms linear;
