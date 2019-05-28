@@ -25,7 +25,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainmenu">
-        <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html"> Start </a>
           </li>
@@ -33,13 +33,19 @@
             <a class="nav-link" href="onas.html"> O nas </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="oferta.html"> Oferta </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="galeria.php"> Galeria </a>
+            <a class="nav-link" href="geologia.html"> Geologia </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="kontakt.html"> Kontakt </a>
+            <a class="nav-link" href="geotechnika.html"> Geotechnika </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="laboratorium.html">Laboratorium </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="galeria.php">Galeria </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt </a>
           </li>
         </ul>
         
