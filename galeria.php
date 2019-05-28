@@ -30,7 +30,7 @@
             <a class="nav-link" href="index.html"> Start </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="onas.html"> O nas </a>
+            <a class="nav-link" href="onas.html"> O&nbsp;nas </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="geologia.html"> Geologia </a>
