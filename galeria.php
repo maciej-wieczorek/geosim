@@ -13,27 +13,24 @@
   <link rel="stylesheet" href="css/fontello.css" type="text/css">
 </head>
 
-<body onresize="padding()">
+<body>
   <!--Zajebiste menu tutaj-->
   <header>
-    <nav class="navbar navbar-light bg-nav navbar-expand-lg">
+  <nav class="navbar navbar-light bg-nav navbar-expand-lg">
       <a class="navbar-brand" href="index.html">
-        <img src="img/GEOSIM_LOGO.png" class="d-inline-block mr-1 align-middle " alt="">
+        <img src="img/GEOSIM_LOGO.png" class="d-inline-block mr-1 align-middle" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
         aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainmenu">
-      <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html"> Start </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="onas.html"> O&nbsp;nas </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="geologia.html"> Geologia </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="geotechnika.html"> Geotechnika </a>
@@ -42,7 +39,13 @@
             <a class="nav-link" href="laboratorium.html">Laboratorium </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="galeria.php">Galeria </a>
+            <a class="nav-link" href="przedZakupem.html">Przed&nbsp;zakupem&nbsp;działki</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="domyJedno.html">Domy&nbsp;jednorodzinne</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="galeria.php">Galeria </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="kontakt.html">Kontakt </a>
@@ -172,7 +175,7 @@
     </div>
   </footer>
   </div>
-  <script src="script.js"></script>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
   </script>

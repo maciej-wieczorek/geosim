@@ -5,19 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>GEOSIM - Geologia</title>
+  <title>GEOSIM - Start</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css" href="socialmedia.css">
+  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="css/fontello.css" type="text/css">
+  <link rel="stylesheet" href="socialmedia.css">
 </head>
 
-<body onresize="padding()">
+<body>
+  <!--Zajebiste menu tutaj-->
   <header>
-    <nav class="navbar navbar-light bg-nav navbar-expand-lg ">
+    <nav class="navbar navbar-light bg-nav navbar-expand-lg">
       <a class="navbar-brand" href="index.html">
-        <img src="img/GEOSIM_LOGO.png" class="d-inline-block mr-1 align-middle " alt="">
+        <img src="img/GEOSIM_LOGO.png" class="d-inline-block mr-1 align-middle" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
         aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
@@ -25,34 +26,36 @@
       </button>
       <div class="collapse navbar-collapse" id="mainmenu">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"> Start </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="onas.html"> O&nbsp;nas </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="geologia.html"> Geologia </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="geotechnika.html"> Geotechnika </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="laboratorium.html">Laboratorium </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="galeria.php">Galeria </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kontakt.html">Kontakt </a>
-            </li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"> Start </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="onas.html"> O&nbsp;nas </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="geotechnika.html"> Geotechnika </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="laboratorium.html">Laboratorium </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="przedZakupem.html">Przed&nbsp;zakupem&nbsp;działki</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="domyJedno.html">Domy&nbsp;jednorodzinne</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.php">Galeria </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt </a>
+          </li>
+        </ul>
         
       </div>
     </nav>
   </header>
-  <div class="container oferta">
-    <!--Zajebiste menu tutaj-->
+  <div class="container">
     <section>
       <!--Przesuwane obrazki tutaj-->
       <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
@@ -98,27 +101,44 @@
         </a>
       </div>
       <!--Treść strony tutaj-->
-      <p class="pogrubiony1">Nasza oferta obejmuje:</p>
-      <p class="italic">Wklejanie i wymiana szyb w pojazdach:</p>
-      <ul class="oferta">
-        <li>osobowych</li>
-        <li>dostawczych</li>
-        <li>ciężarowych</li>
-        <li>autobusach</li>
-        <li>tirach</li>
-        <li>nietypowych</li>
-        <li>Szklenie busów</li>
-      </ul>
-      <p class="italic">Naprawa szyb w samochodowych:</p>
-      <ul class="oferta">
-        <li>odpryski</li>
-        <li>pęknięcia</li>
-        <li>rozwarstwiena szyb bocznych</li>
-        <li>dorabianie z plexi szyb nietypowych</li>
-      </ul>
-      <p class="pogrubiony1">Gwarancja obejmuje dożywotnią szczelność spoiny!</p>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <h3>O&nbsp;nas</h3>
+          <p>Firma <b>GEOSIM</b> zajmuje się badaniami geologicznymi i geotechnicznymi, 
+            pobieraniem próbek gruntu i wody do badań laboratoryjnych. 
+            Wieloletnie doświadczenie, rzetelność i profesjonalizm gwarantem bezpieczeństwa 
+            Państwa inwestycji! Działamy na terenie całego kraju!</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <h3>Oferta</h3>
+          <p>
+            Nasza oferta obejmuje:
+            <ul class="indekslist">
+              <li>wiercenie geologiczne</li>
+              <li>sondowania dynamiczne</li>
+              <li>sondowania statyczne</li>
+              <li>laboratorium gruntu i wód</li>
+              <li>opinie geotechniczne, dokumentacje badań podłoża, projekty robót geologicznych, dokumentacje geologiczno - inżynierskie</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <h3>Kontakt</h3>
+          <p>
+            GEOSIM Dawid Simiński<br>
+            Lusówko ul. Syrenki<br>
+            62-080 Tarnowo Podgórne<br>
+            e-mail: biuro@geosim.pl<br>
+            mobile: 513 896 846
+          </p>
+        </div>
+      </div>
+      <hr class="przerwa">
+      <div class="row">
+        <img src="images/banerek.png" id="_resimage">
+      </div>
     </section>
-    <!--Facabook i Twitter tutaj-->
+    <!--Facebook i Twitter tutaj-->
     <aside class="sticky-social">
       <a href="https://www.facebook.com/pages/category/Geologic-Service/GeoSim-Dawid-Simi%C5%84ski-247277702723309/" target="_blank" class="sociallink"><i class="icon-facebook"></i></a>
     </aside>
@@ -137,7 +157,7 @@
       </div>
     </footer>
   </div>
-  <script src="script.js"></script>
+  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
