@@ -16,42 +16,43 @@
 <body>
   <!--Zajebiste menu tutaj-->
   <header>
-  <nav class="navbar navbar-light bg-nav navbar-expand-lg">
+    <nav class="navbar navbar-light bg-nav navbar-expand-lg">
       <a class="navbar-brand" href="index.html">
-        <img src="img/GEOSIM_LOGO.png" class="d-inline-block mr-1 align-middle" alt="">
+        <img src="img/GEOSIM_LOGO.png" class="d-inline-block" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
         aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainmenu">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html"> Start </a>
+            <a class="nav-link" href="index.html">Start</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="onas.html"> O&nbsp;nas </a>
+            <a class="nav-link" href="onas.html">O&nbsp;nas</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="geotechnika.html"> Geotechnika </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="laboratorium.html">Laboratorium </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="przedZakupem.html">Przed&nbsp;zakupem&nbsp;działki</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="domyJedno.html">Domy&nbsp;jednorodzinne</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Oferta
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="geotechnika.html">Geotechnika</a>
+              <a class="dropdown-item" href="laboratorium.html">Laboratorium</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="przedZakupem.html">Przed&nbsp;zakupem&nbsp;działki</a>
+              <a class="dropdown-item" href="domyJedno.html">Domy&nbsp;jednorodzinne</a>
+            </div>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="galeria.php">Galeria </a>
+            <a class="nav-link" href="galeria.php">Galeria</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="kontakt.html">Kontakt </a>
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
           </li>
         </ul>
-        
+
       </div>
     </nav>
   </header>
