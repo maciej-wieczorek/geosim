@@ -19,8 +19,8 @@ body {
     margin-top: 50px;
     margin-bottom: 30px;
     background-color: #ff6400;
-    font-size: 17px !important;
     padding: 0;
+    font-size: 19px;
 }
 
 .navbar a {
@@ -33,7 +33,6 @@ body {
 }
 
 .navbar li {
-    height: 45px;
     margin: 0;
 }
 
@@ -54,6 +53,18 @@ a.navbar-brand {
     padding: 0 !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
+}
+
+.dropdown-menu {
+    background-color: #ff6400;
+}
+
+.dropdown-item {
+    height: 35px !important;
+}
+
+.dropdown-item:hover {
+    background-color: #ff9f42;
 }
 
 section ul {
